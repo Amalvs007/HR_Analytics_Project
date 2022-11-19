@@ -7,7 +7,7 @@ import joblib
 app = Flask(__name__)
 
 model = joblib.load("model.pkl")
-scale = joblib.load("Scale.pkl")
+scale = joblib.load("scale.pkl")
 label_Region = joblib.load("label_Region.pkl")
 label_Department = joblib.load("label_Department.pkl")
 
